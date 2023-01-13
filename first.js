@@ -3,6 +3,6 @@ module.exports = async (client, Discord) =>{
     const adminChannel = guild.channels.cache.get('988386059085828096');
     const roleChannel = guild.channels.cache.get('987846568298299432');
     adminChannel.send('!joinrole recruit 988383927230152734');
-    adminChannel.send('!salesbot 3xVDoLaecZwXXtN59o6T3Gfxwjcgf8Hc9RfoqBn995P9 https://discord.com/api/webhooks/990760050333200414/LlD_efMGiglFpgb_guhW1TAxFTmybHiFycXyS22tezP62PRs8ya9bVpWfXvHVPnl2mAj');
+    adminChannel.send('!salesbot 3xVDoLaecZwXXtN59o6T3Gfxwjcgf8Hc9RfoqBn995P9 webhook');
     roleChannel.send('!reactionrole 989649326932377600 soldier ✅ recruit');
 }
